@@ -1,0 +1,15 @@
+.image-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: 48%; /* Adjust width as needed */
+    height: auto;
+    margin-right: 2%; /* Optional margin for spacing */
+  }
+  
+  .image:last-of-type {
+    margin-right: 0; /* Remove margin for the last image */
+  }
+  
