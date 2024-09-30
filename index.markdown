@@ -1,55 +1,30 @@
 ---
 layout: default
-title: Datase
+# title: Dataset
 ---
-
-# Dataset
-
-
-## Sensor Configuration
-- **Stereo Camera:** Custom Underwater Stereo Camera
-- **Doppler Velocity Log:** WaterLinked A50 DVL
-- **IMU:** MICROSTRAIN 3DM-GX5-AHRS IMU
-- **Depth Sensor:** Blue Robotics Bar 30 Pressure/Depth
-
-The sensor frames are defined as follows:
-
-<img src="{{ site.baseurl }}/images/sensor_side.PNG" alt="Sensor frames side view" width="350">
-<img src="{{ site.baseurl }}/images/sensor_top.PNG" alt="Sensor frames top view" width="350">
-
-## Environment Set Up
+<h1 style="text-align: center;">Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</h1>
 
 ![Overview]({{ site.baseurl }}/images/tank_overview.png)
 
-WaveTank dataset provides sequences of varying difficulty that represent various underwater conditions. Moreover, a fiducial-marker-based SLAM system designed to provide high-accuracy 6 DoF pose ground truth data, enabling rigorous evaluation and comparison of underwater SLAM algorithms.
-
-## Data Format
-All data is provided by ROS bag and raw data associated with parameter YAML files. 
-
-### ROS Bag
-The topics information are as follows:
-- **/camera/left/image\_dehazed/compressed:sensor\_msgs/CompressedImage** Left image from the stereo cameras.
-- **/camera/right/image\_dehazed/compressed:sensor\_msgs/CompressedImage** Right image from the stereo cameras.
-- **/imu/data:sensor\_msgs/Imu** IMU data.
-- **/DVL/data:waterlinked\_a50\_ros\_driver/DVL** DVL data.
-- **/depth/data:nav\_msgs/Odometry** Depth data from pressure sensor.
-- **/apriltag\_slam/GT:nav\_msgs/Odometry** GT pose provided by AprilTag SLAM.
-
-### Raw Data
-In addition to the ROS bag files, the raw data is also provided in a folder structure. The raw data includes the images from the stereo camera, the depth data from the pressure sensor, the DVL data, the IMU data, and the GT data. An example of folder structure of Strcture\_Easy sequence is shown as follows:
-![file_structure]({{ site.baseurl }}/images/structure.png)
-
-### Parameter file
-The parameter files provide the camera intrinsic parameters and extrinsic parameters between the sensors in YAML format.
+The Tank dataset offers sequences of varying difficulty, representing diverse underwater conditions. The eight sequences were collected in a water tank, covering different areas including a textureless wall ((1) and (3) in the figure), a wave generator ((2) in the figure), a beach ((4) in the figure), and an underwater structure covered with AprilTag markers ((5), (b), and (c) in the figure). Additionally, a fiducial-marker-based SLAM system is employed to provide high-accuracy 6-DoF pose ground truth data, enabling rigorous evaluation and comparison of underwater SLAM algorithms.
 
 
-
-
-## Publication
-Our work is published in the paper titled _"Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation"_ You can find the paper [here]().
+# Citation
 
 Please cite our paper, if you use our data for your research:
+<div class="citation-box">
+  <strong>Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</strong><br>
+  Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang <br>
+<a href="#">[PDF]</a>
+  <pre><code>
+@misc{xu2024tank,
+  title={Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation},
+  author={Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang},
+  year={2024}
+}
+  </code></pre>
+</div>
 
 
-## Download
+# Download
 You can download the dataset on our [Download page](/download/). 
