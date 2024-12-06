@@ -10,7 +10,6 @@ The Tank dataset is an underwater SLAM evaluation dataset that includes data fro
 
 
 # Citation
-
 Please cite our paper, if you use our data for your research:
 <div class="citation-box">
   <strong>Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</strong><br>
@@ -25,6 +24,8 @@ Please cite our paper, if you use our data for your research:
   </code></pre>
 </div>
 
+# License
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Download
 You can download the dataset on our [Download page](/download/). 
