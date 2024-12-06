@@ -10,7 +10,7 @@ A short sequence is provided for sample test.
 
 | Sequence Name | Length | ROS Bag        | Raw Data       | Parameter    |
 |---------------|--------|----------------|----------------|--------------|
-| **short_test**    | 10s    | [short_test.bag ](https://drive.google.com/file/d/1U2APRrDJYpTHktil1evhvAsF__L42BYL/view?usp=sharing)| [short_test.zip](https://drive.google.com/file/d/1Aiv_OZNT1tZPui3BcqPoQBvR8o04Hf5J/view?usp=sharing) | [short_test.yaml](https://drive.google.com/file/d/14-r9kboHeKbNTmHEdCyDqp-s80us8Xkt/view?usp=sharing)|
+| **short_test**    | 15s    | [short_test.bag ](https://drive.google.com/file/d/1U2APRrDJYpTHktil1evhvAsF__L42BYL/view?usp=sharing)| [short_test.zip](https://drive.google.com/file/d/1Aiv_OZNT1tZPui3BcqPoQBvR8o04Hf5J/view?usp=sharing) | [short_test.yaml](https://drive.google.com/file/d/14-r9kboHeKbNTmHEdCyDqp-s80us8Xkt/view?usp=sharing)|
 
 # Download
 **please fill the form to get the download link.**
