@@ -5,15 +5,15 @@ permalink: /download/
 
 ## Download Dataset
 ---
-**Password** is required to access the data. To obtain the password, **please fill the [form](https://docs.google.com/forms/d/e/1FAIpQLSdq1CYU50CuBLhaTK-B4zBCo3SlxVmcB8GMVMYRgSRezpEgyA/viewform?usp=sf_link) before download.**
 # Sample Data
 A short sequence is provided for sample test.
 
 | Sequence Name | Length | ROS Bag        | Raw Data       | Parameter    |
 |---------------|--------|----------------|----------------|--------------|
-| **short_test**    | 10s    | [short_test.bag ]()| [short_test.zip]() | [short_test.yaml]()|
+| **short_test**    | 10s    | [short_test.bag ](https://drive.google.com/file/d/1U2APRrDJYpTHktil1evhvAsF__L42BYL/view?usp=sharing)| [short_test.zip](https://drive.google.com/file/d/1Aiv_OZNT1tZPui3BcqPoQBvR8o04Hf5J/view?usp=sharing) | [short_test.yaml](https://drive.google.com/file/d/14-r9kboHeKbNTmHEdCyDqp-s80us8Xkt/view?usp=sharing)|
 
 # Download
+**please fill the form to get the download link.**
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxTOocpTNvusXM_jpl9wkzeF_KnfnlkBBBqyOcmwMHU4IH_g/viewform?usp=dialog" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
