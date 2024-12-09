@@ -18,4 +18,4 @@ A short sequence is provided for sample test.
 
 
 # License
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). It is for non-commercial academic uses. If you are interested in RADIATE for commercial purposes, please contact [Dr. Sen Wang](https://profiles.imperial.ac.uk/sen.wang)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). It is for non-commercial academic uses. If you are interested in Tank Dataset for commercial purposes, please contact [Dr. Sen Wang](https://profiles.imperial.ac.uk/sen.wang)
