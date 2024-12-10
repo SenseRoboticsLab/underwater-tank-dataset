@@ -22,10 +22,10 @@ title: Tank Dataset
 email: sen.wang@imperial.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   An multi-sensor underwater dataset for SLAM evaluation.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/underwater-tank-dataset" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  Tank Dataset
+# github_username:  Tank Dataset
 
 # Build settings
 theme: minima
