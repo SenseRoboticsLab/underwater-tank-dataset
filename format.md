@@ -31,11 +31,14 @@ All data is provided by ROS bag and raw data associated with parameter YAML file
 
 
 ## Raw Data
-In addition to the ROS bag files, the raw data is also provided in a folder structure. The raw data includes the images from the stereo camera, the depth data from the pressure sensor, the DVL data, the IMU data, and the GT data. An example of folder structure of Strcture\_Easy sequence is shown as follows:
-![file_structure]({{ site.baseurl }}/images/structure.png)
+In addition to the ROS bag files, the raw data is also provided in a folder structure. The raw data includes the images from the stereo camera, the depth data from the pressure sensor, the DVL data, the IMU data, and the GT data. An example of the folder structure of Strcture\_Easy sequence is shown as follows:
+
+<center>
+<img src="{{ site.baseurl }}/images/structure.png" alt="File Structure" width="500">
+</center>
 
 # Parameter file
-The parameter files provide the camera intrinsic parameters and extrinsic parameters between the sensors in YAML format.
+The parameter files provide the camera's intrinsic parameters and the extrinsic parameters between the sensors in YAML format.
 
 ```
 #Camera Intrinsics
