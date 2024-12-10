@@ -28,4 +28,4 @@ Please cite our paper, if you use our data for your research:
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Download
-You can download the dataset on our [Download](/download/) page. 
+You can download the dataset on our [Download]({{ site.baseurl }}/download/) page. 
