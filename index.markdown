@@ -2,7 +2,8 @@
 layout: default
 # title: Dataset
 ---
-<h1 style="text-align: center;">Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</h1>
+<h1 style="text-align: center;">Tank Dataset</h1>
+<h2 style="text-align: center;">An Underwater Multi-Sensor Dataset for SLAM Evaluation</h2>
 
 ![Overview]({{ site.baseurl }}/images/tank_overview.png)
 
@@ -12,9 +13,8 @@ The Tank dataset is an underwater SLAM evaluation dataset that includes data fro
 # Citation
 Please cite our paper, if you use our data for your research:
 <div class="citation-box">
-  <strong>Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</strong><br>
+  <strong>Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</strong><br> <a href="#">[PDF]</a>
   Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang <br>
-<a href="#">[PDF]</a>
   <pre><code>
 @misc{xu2024tank,
   title={Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation},
@@ -28,4 +28,4 @@ Please cite our paper, if you use our data for your research:
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Download
-You can download the dataset on our [Download page](/download/). 
+You can download the dataset on our [Download](/download/) page. 
