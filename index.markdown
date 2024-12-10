@@ -19,7 +19,7 @@ Please cite our paper, if you use our data for your research:
 @misc{xu2024tank,
   title={Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation},
   author={Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang},
-  year={2024}
+  year={Under Review}
 }
   </code></pre>
 </div>
