@@ -13,9 +13,8 @@ The Tank dataset is an underwater SLAM evaluation dataset that includes data fro
 # Citation
 Please cite our paper, if you use our data for your research:
 <div class="citation-box">
-  <strong>Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</strong> <a href="#">[PDF]</a> <br> 
-  Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang <br>
-  <pre><code>
+  <strong><a href="https://journals.sagepub.com/doi/10.1177/02783649251364904">Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</a></strong>
+  <pre><code> 
 @article{xu2025tank,
   title={Tank dataset: An underwater multi-sensor dataset for SLAM evaluation},
   author={Xu, Shida and Scharff Willners, Jonatan and Roe, Joshua and Katagiri, Sean and Luczynski, Tomasz and Petillot, Yvan and Wang, Sen},
