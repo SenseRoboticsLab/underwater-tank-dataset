@@ -16,7 +16,7 @@ A short sequence is provided for sample test.
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). It is for non-commercial academic uses. If you are interested in using this dataset for commercial purposes, please contact [Dr. Sen Wang](https://profiles.imperial.ac.uk/sen.wang)
 
 # Download
-**Please fill the form below to receive the download link.** (Only sample sequence available during paper review)
+**Please fill the form below to receive the download link.** We will send you an email with the download link and password within 1-2 working days. If you have any questions, please contact [Dr. Sen Wang](https://profiles.imperial.ac.uk/sen.wang).
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxTOocpTNvusXM_jpl9wkzeF_KnfnlkBBBqyOcmwMHU4IH_g/viewform?usp=dialog" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 

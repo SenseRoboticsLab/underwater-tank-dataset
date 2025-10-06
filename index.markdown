@@ -16,10 +16,13 @@ Please cite our paper, if you use our data for your research:
   <strong>Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation</strong> <a href="#">[PDF]</a> <br> 
   Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang <br>
   <pre><code>
-@misc{xu2024tank,
-  title={Tank Dataset: An Underwater Multi-Sensor Dataset for SLAM Evaluation},
-  author={Shida Xu, Jonatan Scharff Willners, Joshua Roe, Sean Katagiri, Tomasz Luczynski, Yvan Petillot and Sen Wang},
-  year={Under Review}
+@article{xu2025tank,
+  title={Tank dataset: An underwater multi-sensor dataset for SLAM evaluation},
+  author={Xu, Shida and Scharff Willners, Jonatan and Roe, Joshua and Katagiri, Sean and Luczynski, Tomasz and Petillot, Yvan and Wang, Sen},
+  journal={The International Journal of Robotics Research},
+  pages={02783649251364904},
+  year={2025},
+  publisher={SAGE Publications Sage UK: London, England}
 }
   </code></pre>
 </div>
