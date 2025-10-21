@@ -20,7 +20,7 @@ A short sequence is provided for sample test.
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxTOocpTNvusXM_jpl9wkzeF_KnfnlkBBBqyOcmwMHU4IH_g/viewform?usp=dialog" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 # Raw Data Conversion
-Currently, we only provide download links for the ROS bag files. To convert the ROS bag files to raw data, please follow the instructions in the [**Data Conversion**](https://github.com/SenseRoboticsLab/underwater_data_tools) page.
+Currently, we only provide download links for the ROS bag files. To convert the ROS bag files to raw data, please use the provided [**Data Conversion Script**](https://github.com/SenseRoboticsLab/underwater_data_tools).
 
 # License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). It is for non-commercial academic uses. If you are interested in using this dataset for commercial purposes, please contact [Dr. Sen Wang](https://profiles.imperial.ac.uk/sen.wang)
