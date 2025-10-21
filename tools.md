@@ -170,5 +170,3 @@ The RMSE absolute errors are presented in following Table. UVA demonstrates the 
 The error distribution heat map, presented in the following figure, illustrates the error deviations across 10 runs for each method. The UVA method demonstrates the highest robustness across the majority of the sequences.
 ![error_map_t]({{ site.baseurl }}/images/slam_error_map_rmse_t.png)
 ![error_map_r]({{ site.baseurl }}/images/slam_error_map_rmse_r.png)
-
-For more results, please refer to our [paper]().
