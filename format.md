@@ -15,6 +15,9 @@ permalink: /format/
 
 The sensor frames are defined as follows:
 
+
+Note that the actual extrinsic parameters between the sensors may vary slightly due to the mounting process. **Please refer to the provided parameter files for accurate extrinsic calibration.**
+
 <img src="{{ site.baseurl }}/images/sensor_side.PNG" alt="Sensor frames side view" width="350">
 <img src="{{ site.baseurl }}/images/sensor_top.PNG" alt="Sensor frames top view" width="350">
 
@@ -34,6 +37,7 @@ All data is provided by ROS bag and raw data associated with parameter YAML file
 | /apriltag_slam/GT_full                             | `nav_msgs/Odometry`                  | Full ground truth pose fused by AprilTag SLAM and [AQUA SLAM](https://arxiv.org/abs/2503.11420). | 2.5 |
 | /aqua_slam/pose                                    | `nav_msgs/Odometry`                  | Pose estimate from [AQUA SLAM](https://arxiv.org/abs/2503.11420).              | 2.5 |
 
+Please note that **the /apriltag_slam/GT_full topic is not available in Structure_Easy, Medium and Hard sequences**. Since /apriltag_slam/GT already provides high-accuracy full ground truth trajectories, the fusion with AQUA SLAM is not necessary for these sequences.
 
 ## Raw Data
 In addition to the ROS bag files, the raw data is also provided in a folder structure. The raw data includes the images from the stereo camera, the depth data from the pressure sensor, the DVL data, the IMU data, and the GT data. An example of the folder structure of Strcture\_Easy sequence is shown as follows:
