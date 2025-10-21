@@ -49,6 +49,8 @@ In addition to the ROS bag files, the raw data is also provided in a folder stru
 # Parameter file
 The parameter files provide the camera's intrinsic parameters and the extrinsic parameters between the sensors in YAML format.
 
+Please note the extrinsic parameters may vary slightly for different sequences due to the mounting process. **Please use the corresponding parameter files for different sequences.**
+
 ```
 #Camera Intrinsics
 Camera.fx: 655.0
