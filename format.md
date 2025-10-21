@@ -3,6 +3,9 @@ layout: default  # Or another layout if you have one
 title: Data Format
 permalink: /format/ 
 ---
+<style>
+.wrapper { max-width: 1200px; padding-left: 24px; padding-right: 24px; }
+</style>
 
 # Sensor Configuration
 - **Stereo Camera:** Custom Underwater Stereo Camera
@@ -20,14 +23,16 @@ All data is provided by ROS bag and raw data associated with parameter YAML file
 
 ## ROS Bag
 
-| **Topic**                                           | **Type**                             | **Description**                            |**HZ**|
-|-----------------------------------------------------|--------------------------------------|--------------------------------------------|----|
-| /camera/left/<br>image_dehazed/compressed             | `sensor_msgs/CompressedImage`        | Left image from the stereo cameras.        | 20 |
-| /camera/right/<br>image_dehazed/compressed            | `sensor_msgs/CompressedImage`        | Right image from the stereo cameras.       |20 |
-| /imu/data                                         | `sensor_msgs/Imu`                    | IMU data.                                  | 333 |
-| /DVL/data                                         | `waterlinked_a50_ros_driver/DVL`     | DVL data.                                  | 5 |
-| /depth/data                                       | `nav_msgs/Odometry`                  | Depth data from pressure sensor.           | 30 |
-| /apriltag_slam/GT                                 | `nav_msgs/Odometry`                  | GT pose provided by AprilTag SLAM.         | 20 |
+| **Topic**                                           | **Type**                             | **Description**                            | **HZ** |
+|-----------------------------------------------------|--------------------------------------|--------------------------------------------|-------|
+| /camera/left/<br>image_dehazed/compressed           | `sensor_msgs/CompressedImage`        | Left image from the stereo cameras.        | 20 |
+| /camera/right/<br>image_dehazed/compressed          | `sensor_msgs/CompressedImage`        | Right image from the stereo cameras.       | 20 |
+| /imu/data                                          | `sensor_msgs/Imu`                    | IMU data.                                  | 333 |
+| /dvl/data                                          | `waterlinked_a50_ros_driver/DVL`     | DVL data.                                  | 5 |
+| /depth/data                                        | `nav_msgs/Odometry`                  | Depth data from pressure sensor.           | 30 |
+| /apriltag_slam/GT                                  | `nav_msgs/Odometry`                  | GT pose provided by AprilTag SLAM.        | 20 |
+| /apriltag_slam/GT_full                             | `nav_msgs/Odometry`                  | Full ground truth pose fused by AprilTag SLAM and [AQUA SLAM](https://arxiv.org/abs/2503.11420). | 2.5 |
+| /aqua_slam/pose                                    | `nav_msgs/Odometry`                  | Pose estimate from [AQUA SLAM](https://arxiv.org/abs/2503.11420).              | 2.5 |
 
 
 ## Raw Data

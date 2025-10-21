@@ -1,0 +1,25 @@
+---
+---
+
+// Import Minima defaults
+@import "minima";
+
+// Widen site content by overriding the Minima .wrapper width
+.wrapper {
+  max-width: 1200px; // default is ~800px in Minima
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+// Optional: make code blocks and tables use full wrapper width nicely
+.post-content pre,
+.page-content pre {
+  overflow: auto;
+}
+
+.post-content table,
+.page-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}

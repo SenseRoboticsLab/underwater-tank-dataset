@@ -2,6 +2,9 @@
 layout: default
 # title: Dataset
 ---
+<style>
+.wrapper { max-width: 1200px; padding-left: 24px; padding-right: 24px; }
+</style>
 <h1 style="text-align: center;">Tank Dataset</h1>
 <h2 style="text-align: center;">An Underwater Multi-Sensor Dataset for SLAM Evaluation</h2>
 

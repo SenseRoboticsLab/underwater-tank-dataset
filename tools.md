@@ -3,6 +3,9 @@ layout: default  # Or another layout if you have one
 title: Evaluation Tools
 permalink: /tools/ 
 ---
+<style>
+.wrapper { max-width: 1200px; padding-left: 24px; padding-right: 24px; }
+</style>
 
 # Convenient Tools
 
