@@ -40,7 +40,9 @@ All data is provided by ROS bag and raw data associated with parameter YAML file
 Please note that **the /apriltag_slam/GT_full topic is not available in Structure_Easy, Medium and Hard sequences**. Since /apriltag_slam/GT already provides high-accuracy full ground truth trajectories, the fusion with AQUA SLAM is not necessary for these sequences.
 
 ## Raw Data
-In addition to the ROS bag files, the raw data is also provided in a folder structure. The raw data includes the images from the stereo camera, the depth data from the pressure sensor, the DVL data, the IMU data, and the GT data. An example of the folder structure of Strcture\_Easy sequence is shown as follows:
+In addition to the ROS bag files, we provide a [**Raw Data Conversion Script**](https://github.com/SenseRoboticsLab/underwater_data_tools) to extract the raw data from the ROS bag.
+
+The raw data includes the images from the stereo camera, the depth data from the pressure sensor, the DVL data, the IMU data, and the GT data. An example of the folder structure of Structure\_Easy sequence is shown as follows:
 
 <center>
 <img src="{{ site.baseurl }}/images/structure.png" alt="File Structure" width="300">
